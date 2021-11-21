@@ -1,0 +1,18 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+/*light-blue: #C6E9FF*/
+/*blue: #46B7FF*/
+/*red: #FF4648*/
+/*black: #0e1219*/
+/*white: #FFFFFF*/
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, #ff8e46, #fe9c41, #fba93f, #f7b73e, #f2c441);
+}
+
+.calculator-grid {
+    display: grid;
+    margin-top: 2rem;
+}
